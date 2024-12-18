@@ -1,0 +1,14 @@
+/* Print-specific styles */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .prose, .prose * {
+    visibility: visible;
+  }
+  .prose {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
